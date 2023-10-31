@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="view port" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
     <title>
-        😍🤤 | Imágenes | Aura María Cardona Demasiado | liril
+        A.K.A._Dizzy, 😍🤤 | Imágenes | Aura María Cardona Demasiado | liril
     </title>
     <link rel="shortcut icon" type="image/ico" href="/resources/icons/favicon.ico" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700' rel='stylesheet' type='text/css'>
@@ -23,7 +23,6 @@
     </script>
     <script src="/js/user/modernizr.custom.js"></script>
     <script src="/js/jquery.js"></script>
-    <!--<script type="text/javascript" src= "js/jquery.circlemouse.js"></script> //Thanks to Mary Lou from Codrops, this helped me a lot!-->
     <script src="/js/user/main.js"></script>
     <script src="/js/jquery.dotdotdot.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
@@ -34,144 +33,6 @@
     <script src="/js/video.js"></script>
     <script src="/js/audio.min.js"></script>
     <script src="/js/imgStatic/main.js"></script>
-    <script type="text/javascript">
-        $(function() {
-            $.widget("ui.tooltip", $.ui.tooltip, {
-                options: {
-                    content: function() {
-                        return $(this).prop('title');
-                    }
-                }
-            });
-
-            $('.username').tooltip({
-                items: 'a.target',
-                open: function(event, ui) {
-                    if (typeof(event.originalEvent) === 'undefined') {
-                        return false;
-                    }
-                    $(".knob").knob();
-                    var $id = $(ui.tooltip).attr('id');
-
-                    // close any lingering tooltips
-                    $('div.ui-tooltip').not('#' + $id).remove();
-
-                    // ajax function to pull in data and add it to the tooltip goes here
-                },
-                close: function(event, ui) {
-                    ui.tooltip.hover(function() {
-                            $(this).stop(true).fadeTo(400, 1);
-                        },
-                        function() {
-                            $(this).fadeOut('400', function() {
-                                $(this).remove();
-                            });
-                        });
-                }
-            });
-        });
-    </script>
-    <script>
-        $(function ($) {
-
-            $(".knob").knob({
-                change: function (value) {
-                    //console.log("change : " + value);
-                },
-                release: function (value) {
-                    //console.log(this.$.attr('value'));
-                    console.log("release : " + value);
-                },
-                cancel: function () {
-                    console.log("cancel : ", this);
-                },
-                /*format : function (value) {
-                  return value + '%';
-                  }
-                  ,*/
-                draw: function () {
-
-                    // "tron" case
-                    if (this.$.data('skin') == 'tron') {
-
-                        this.cursorExt = 0.3;
-
-                        var a = this.arc(this.cv) // Arc
-                            ,
-                            pa // Previous arc
-                            , r = 1;
-
-                        this.g.lineWidth = this.lineWidth;
-
-                        if (this.o.displayPrevious) {
-                            pa = this.arc(this.v);
-                            this.g.beginPath();
-                            this.g.strokeStyle = this.pColor;
-                            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
-                            this.g.stroke();
-                        }
-
-                        this.g.beginPath();
-                        this.g.strokeStyle = r ? this.o.fgColor : this.fgColor;
-                        this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
-                        this.g.stroke();
-
-                        this.g.lineWidth = 2;
-                        this.g.beginPath();
-                        this.g.strokeStyle = this.o.fgColor;
-                        this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
-                        this.g.stroke();
-
-                        return false;
-                    }
-                }
-            });
-
-            // Example of infinite knob, iPod click wheel
-            var v, up = 0,
-                down = 0,
-                i = 0,
-                $idir = $("div.idir"),
-                $ival = $("div.ival"),
-                incr = function () {
-                    i++;
-                    $idir.show().html("+").fadeOut();
-                    $ival.html(i);
-                },
-                decr = function () {
-                    i--;
-                    $idir.show().html("-").fadeOut();
-                    $ival.html(i);
-                };
-            $("input.infinite").knob({
-                min: 0,
-                max: 20,
-                stopper: false,
-                change: function () {
-                    if (v > this.cv) {
-                        if (up) {
-                            decr();
-                            up = 0;
-                        } else {
-                            up = 1;
-                            down = 0;
-                        }
-                    } else {
-                        if (v < this.cv) {
-                            if (down) {
-                                incr();
-                                down = 0;
-                            } else {
-                                down = 1;
-                                up = 0;
-                            }
-                        }
-                    }
-                    v = this.cv;
-                }
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -237,17 +98,17 @@
                             </div>
                             <section class="carr">
                                 <section class="picture">
-                                    <img class="pic" src="/resources/images/AuraCardonaC/wJJkTuyzFu.jpg" alt="" class="big">
-                                </section>
-                                <section class="picture">
-                                    <img class="pic" src="/resources/images/AuraCardonaC/2BYZMqibxZ.jpg" alt="" class="big">
-                                </section>
-                                <section class="picture">
-                                    <img class="pic" src="/resources/images/AuraCardonaC/HYk7c0QuCD.jpg" alt="" class="big">
-                                </section>
-                                <section class="picture">
-                                    <img class="pic" src="/resources/images/AuraCardonaC/ppETlVeyfD.jpg" alt="" class="big">
-                                </section>
+                                            <img class="pic" src="/resources/images/AuraCardonaC/HYk7c0QuCD.jpg" alt="" class="big">
+                                        </section>
+                                        <section class="picture">
+                                            <img class="pic" src="/resources/images/AuraCardonaC/2BYZMqibxZ.jpg" alt="" class="big">
+                                        </section>
+                                        <section class="picture">
+                                            <img class="pic" src="/resources/images/AuraCardonaC/ppETlVeyfD.jpg" alt="" class="big">
+                                        </section>
+                                        <section class="picture">
+                                            <img class="pic" src="/resources/images/AuraCardonaC/wJJkTuyzFu.jpg" alt="" class="big">
+                                        </section>
                             </section>
                         </section>
                         <div class="Playuse">
@@ -289,9 +150,24 @@
                    Cancún (en maya: kaan y kuum "olla o nido de serpientes") es una ciudad planificada mexicana ubicada en el estado de Quintana Roo, siendo cabecera del municipio de Benito Juárez, se ubica en el oriente de México, a más de 1600 km de la Ciudad de México. Es la ciudad más poblada del estado con 888 797 habitantes según últimos censos del Instituto Nacional de Estadística y Geografía en el 2020. Considerada un destino turístico de talla mundial, con certificación de la Organización Mundial del Turismo, el proyecto de su desarrollo inició operaciones en 1974 como Centro Integralmente Planeado, pionero de Fonatur (Fondo Nacional de Fomento al Turismo), antes conocido como Infratur.  <br><a target= "_blank"style= "font-size:0.8em; " href= "https://es.wikipedia.org/wiki/Canc%C3%BAn"><span style= "color: #2ecc71; font-size: 1.5em; ">···</span> es.wikipedia.org</a>
                </div>
               </div>'>Cancún</a> <br><span title="27 de Febrero de 2022 a las 2:50 pm" class="time">27 de Febrero a las 2:50 pm</span></p>
+                        <span title="Editado el 26 de Marzo de 2022 a las 8:12 pm" class="Editado">Editado</span>
                         </div>
                         <div class="description" style="padding-top: 76px;">
-                            <p class="title">😍🤤</p>
+                            <p class="title"><a class="target" href="/A.K.A._Dizzy" title="         
+                                <div class='tool'>
+                                    <input class='knob button' data-width='102' data-height='102' data-fgColor='#2ecc71' data-bgColor='rgba(0,0,0,0)' data-displayInput=false data-thickness='.08' readonly value='100'>
+                                    <img src='/resources/images/A.K.A._Dizzy/1AzV0qwVwn_tn.gif'>
+                                    <div class='datos'>
+                                    <ul class='actions'>
+                                        <li class='chatear' title='Chatear'>C</li>
+                                        <li class='agregar' title='Agregar'>A</li>
+                                        <li class='juzgar' title='Juzgar'>J</li>
+                                    </ul>                  
+                                    <p class='username' title= 'Luis Eduardo Gallego García'>Luis Eduardo Gallego García</p>
+                                    <p class='rol'>CEO <b style='color:#fff;'>+100</b></p>
+                                    </div>
+                                    <div class='insignia' style='top: 39px;' title='EP (Planifique)'> </div>
+                                </div>">A.K.A._Dizzy</a>, 😍🤤</p>
                             <p class="more"></p>
                         </div>
                         <div class="comentarios">
