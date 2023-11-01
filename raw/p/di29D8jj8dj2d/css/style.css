@@ -21,22 +21,22 @@ div#fantasma_de_Start{
   border: 1px #33df9e dotted; 
 } 
 body > aside{ 
-	height: 100%; 
-	width: 100%; 
-	z-index: 1; 
-	position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    z-index: 1; 
+    position: absolute; 
 } 
 body > aside > svg{ 
-	cursor: w-resize; 
-	height: 100%; 
-	width: 100%; 
-	box-sizing: border-box; 
-	position: absolute; 
+    cursor: w-resize; 
+    height: 100%; 
+    width: 100%; 
+    box-sizing: border-box; 
+    position: absolute; 
 } 
 p#loaded{ 
-	position: absolute; 
-	bottom: 0; 
-	font-family: monospace; 
-	word-break: break-word; 
+    position: absolute; 
+    bottom: 0; 
+    font-family: monospace; 
+    word-break: break-word; 
 } 
 /*Hoja de estilos en cascada (cascade style sheet)*/
